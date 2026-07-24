@@ -1,8 +1,17 @@
 aid: bold-metrics
 name: Bold Metrics
-description: 'Bold Metrics is a company surfaced as a portfolio company of bessemer-venture-partners,
-  techstars and added to the API Evangelist network as a stub for enrichment. Sector: vertical-software.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Bold Metrics is an AI body data platform for the apparel and fashion
+  industry that uses digital-twin technology to power apparel fit and sizing. From
+  just 4-6 simple body-data inputs it predicts 50+ individual body measurements with
+  tailor-level accuracy, without photos, scanning, or measuring tapes. Its products
+  - Smart Size Chart, Virtual Sizer, Virtual Tailor, Apparel Insights, and the Agentic
+  Sizing Protocol - help brands reduce returns, lift conversion, and increase average
+  order value with personalized size recommendations. The Agentic Sizing Protocol
+  exposes this capability to AI shopping agents while keeping retailer API credentials
+  off the agent and out of any LLM. Bold Metrics has processed 250M+ digital twins
+  and 12B+ body-data points. Backed by Bessemer Venture Partners and Techstars. This
+  profile is maintained in the API Evangelist network; Bold Metrics publishes no
+  public API documentation - integration is gated behind a demo/partner engagement.'
 url: https://raw.githubusercontent.com/api-evangelist/bold-metrics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,33 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://boldmetrics.com/hubfs/Bold%20Metrics%20Logo%202025/logo-stacked-secondary.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Vertical Software
+- Apparel
+- Fashion
+- Sizing
+- Body Measurement
+- Artificial Intelligence
+- Retail
+- E-commerce
+- Digital Twin
+- Agentic
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +54,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bold-metrics-domain-security.yml
 - type: Website
   url: https://www.boldmetrics.com/
+- type: Blog
+  url: https://blog.boldmetrics.com/
+- type: PrivacyPolicy
+  url: https://boldmetrics.com/privacy
+- type: Support
+  url: https://boldmetrics.com/contact
+- type: GitHubOrganization
+  url: https://github.com/BoldMetrics
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
