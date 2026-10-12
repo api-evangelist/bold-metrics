@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/bold-metrics/integrations
+- https://n8n.io/integrations/bold-metrics/
+- https://composio.dev/toolkits/bold-metrics
+- https://monid.ai/tools/bold-metrics
+checked:
+- https://composio.dev/toolkits/bold-metrics
+- https://monid.ai/tools/bold-metrics
+- https://n8n.io/integrations/bold-metrics/
+- https://zapier.com/apps/bold-metrics/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
